@@ -1,0 +1,34 @@
+body{
+    background: #63C873;
+}
+.login {
+    text-align: center;
+    align-items: center;
+    width: 413px;
+    height: 355px;
+    flex-shrink: 0;
+    border-radius: 48px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    left: 25%;
+}
+.login h1{
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Lexend;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.login form {
+    font-family:Lexend ;
+}
+.login a {
+    color: #63C873;
+    font-family:Lexend;
+    
+}
