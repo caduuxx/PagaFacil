@@ -6,31 +6,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/Styles/styleCadastrar.css">
+    <link rel="stylesheet" href="/Styles/styleLogin.css">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>PagaFacil</title>
 </head>
 <body>
-    <!--Cadastrar-->
+    <!--Login-->
     <div id="form">
-        <form action="">
-            <h2>Cadastrar</h2>
+        <form action="/Scripts/fazerlogin.js">
+            <h2>login</h2>
 
-            <label for="username">Cpf</label>
+            <label for="username">Cpf / Email</label>
 
             <div class="input">
                 <i class='bx bxs-user-circle'></i>
                 <input id="username" name="username" placeholder="CPF" type="text">
             </div>
-
-            <label for="email">Email</label>
-
-            <div class="input">
-                <i class='bx bxs-envelope' ></i>
-                <input id="email" name="email"  placeholder="Email" type="text">
-            </div>
-
             <label for="senha">Senha</label>
 
             <div class="input">
@@ -38,17 +30,16 @@
                 <input id="senha" name="senha" placeholder="Senha" type="password">
             </div>
 
-            <label for="senha">Repitir Senha</label>
-
-            <div class="input">
-                <i class='bx bxs-lock-alt' ></i>
-                <input id="senha" name="senha" placeholder="Senha" type="password">
-            </div>
-
             <div id="btn">
-                <button type="submit">Cadastrar</button>
+                <button type="submit">Fazer login</button>
+            </div> 
+            <br>
+            <div class="links">
+                <a class="ref" href="/html/Cadastrar.html">Nao tenho cadastro</a> 
+            <br>
+            <a class="ref" href="/html/recuperarSenha.html">Esqueci a Senha</a>
             </div>
-            <!--Fim do Cadastrar-->
+            <!--Fim do login-->
         </form>
     </div>
 </body>
