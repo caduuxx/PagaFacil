@@ -2,6 +2,7 @@
  
 Atualizaçao
 - index html
+- Icon nas paginas
 - recuperarSenha html
 - FazerLogin JavaScript
 - Organizaçao dos arquivos 
