@@ -1,0 +1,226 @@
+/* Root sao as variaveis que estamos armazenando no CSS */
+:root{
+    --fundo: #63C873; 
+    --Branco : white;
+    --Preto : black;
+}
+/* ALL */
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* BORY */
+body{
+    background-color: rgb(224, 224, 224);
+}
+/* NAV */
+.content{
+    position: fixed;
+    width: 100%;
+    transition: all 0.3s ease;
+    z-index: 99;
+}
+.content nav{
+    height: 56px;
+    background: var(--Branco);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 0 24px 0 0;
+    display: flex;
+    align-items: center;
+    grid-gap: 24px;
+ }
+ .content img{
+    color: white;
+    width: 240px;
+}
+.content a {
+    color: var(--fundo);
+    text-decoration: var(--fundo);
+    font-size: 1.2rem;
+    
+}
+#link{
+    color: var(--fundo);
+    text-decoration: none;
+    padding-right: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+/* BTN NAV */
+#btn{
+    text-align: right;
+    width: 7%;
+    position: relative;
+    left: 440px;
+}
+#btn button{
+    font-family: 'Poppins', sans-serif;
+    background: transparent;   
+    width: 150px;
+    height: 40px;
+    border: solid var(--fundo);
+    font-size: 1.3rem;
+    color:var(--fundo);
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: background-color 0.3s;
+}
+#btn:hover {
+    background-color: transparent;
+}
+@keyframes clicar {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+#btn:active {
+    animation: clicar 0.2s;
+}
+/* ANIMAÇAO */
+.box-degrader{
+    width: 100%;
+    padding: 70px 0;
+    display: flex;
+    background-image:linear-gradient(to left,#63C873,#229a00,#95b963,#99ff66,#6dd100,#008000,#779b0d );
+    background-size: 500% 100%;
+    animation: degrade-animado 30s infinite alternate;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+@keyframes degrade-animado{
+    0%{
+        background-position-x:0%;
+    }
+    100%{
+        background-position-x:100%;
+    }
+}
+/* SLOGAN */
+.slogan{
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    position: absolute;
+    left: 55%;
+    margin-top: 5%;
+    display: flexbox;
+    padding: 4rem;
+}
+/* INFOS */
+#informacao{ 
+    width: 400px;
+    background: transparent;
+    border: solid var(--Branco) 5px;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    position: relative;
+    left: 10%;
+    margin-top: 5%;
+    display: flexbox;
+}
+#informacao h1{
+    text-align: center;
+    color: var(--Branco); 
+}
+#informacao p{
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--Branco); 
+}
+/* Infos btn´s */
+#btnInformacao{
+    font-family: 'Poppins', sans-serif;
+    background: transparent;   
+    width: 150px;
+    height: 40px;
+    border: solid var(--Branco);
+    font-size: 0.9rem;
+    color:var(--Branco);
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+}
+#btnInformacao:hover {
+    background-color: transparent;
+}
+@keyframes clicar {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+#btnInformacao:active {
+    animation: clicar 0.2s;
+}
+#btnAlign{
+    padding-top: 5%;
+    padding-left: 10%;
+    margin-bottom: 5%;
+}
+#LogoApp{
+    height: 70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+/* COPY`S */
+#copyEsquerda{
+    width: 400px;
+    /* height: 200px; */
+    background: var(--fundo);
+    border: solid var(--fundo) 5px;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    position: relative;
+    left: 10%;
+    margin-top: 5%;
+    display: flexbox;
+    padding: 4rem;
+}
+#copyEsquerda h1{
+    text-align: center;
+    color: var(--Branco); 
+}
+#copyEsquerda p{
+    text-align: center;
+    color: var(--Branco); 
+}
+#copyDireito{
+    width: 400px;
+    /* height: 200px; */
+    background: var(--fundo);
+    border: solid var(--fundo) 5px;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    position: relative;
+    left: 55%;
+    margin-top: 5%;
+    display: flexbox;
+    padding: 4rem;
+}
+#copyDireito h1{
+    text-align: center;
+    color: var(--Branco); 
+}
+#copyDireito p{
+    text-align: center;
+    color: var(--Branco); 
+}
+
