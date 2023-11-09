@@ -1,7 +1,9 @@
-﻿# PagaFacil V0.2.3.4
+﻿# PagaFacil V0.2.3.3
  
 Atualizaçao
-- index html finalizado
+- index html
+- Icon nas paginas
+- recuperarSenha html
 - FazerLogin JavaScript
 - Organizaçao dos arquivos 
 

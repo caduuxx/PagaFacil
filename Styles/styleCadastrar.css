@@ -77,26 +77,4 @@ body h2{
     color: white;
     border-radius: 20px;
     cursor: pointer;
-    transition: background-color 0.3s;
-}
-#btn:hover {
-    background-color: transparent;
-}
-@keyframes clicar {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(0.95);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-#btn:active {
-    animation: clicar 0.2s;
-}
-.ref{
-    color: var(--fundo);
-    text-decoration: var(--fundo);
 }

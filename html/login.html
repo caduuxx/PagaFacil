@@ -15,14 +15,14 @@
 <body>
     <!--Login-->
     <div id="form">
-        <form id="loginForm">
+        <form id="loginForm" action="/Scripts/fazerlogin.js">
             <h2>login</h2>
 
-            <label for="username">Cpf / Cnpf</label>
+            <label for="username">Cpf / Email</label>
 
             <div class="input">
                 <i class='bx bxs-user-circle'></i>
-                <input id="username" name="username" placeholder="CPF/CNPJ" type="text">
+                <input id="username" name="username" placeholder="CPF" type="text">
             </div>
             <label for="senha">Senha</label>
 
@@ -32,9 +32,7 @@
             </div>
 
             <div id="btn">
-                <a href="/html/sidebar.html">
-                    <button type="submit">Fazer login</button>
-                </a>
+                <button type="submit">Fazer login</button>
             </div> 
             <br>
             <div class="links">
