@@ -1,11 +1,10 @@
-﻿# PagaFacil V0.2.3.3
+﻿# PagaFacil V0.2.4
  
 Atualizaçao
-- index html
-- Icon nas paginas
-- recuperarSenha html
-- FazerLogin JavaScript
-- Organizaçao dos arquivos 
+- Clases Java seguindo o diagrama UML
+- Dashbord 80% concluido 
+- Bug "SobreNos" Corrigido  
+
 
 # Descrição
 
