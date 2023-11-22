@@ -469,10 +469,10 @@ body{
     
 }
 
-.content main .bottom-data .reminders .tesk-list{
+.content main .bottom-data .reminders .task-list{
   width: 100%;    
 }
-.content main .bottom-data .reminders .tesk-list li{
+.content main .bottom-data .reminders .task-list li{
     width: 100%;
     margin-bottom: 16px;
     background: var(--grey);
@@ -482,9 +482,89 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+
+.content main .bottom-data .reminders .task-list li .task-title{
+    display: flex;
+    align-items: center;
+}
+
+.content main .bottom-data .reminders .task-list li .task-title p{
+    margin-left: 6px;
+}
+
+.content main .bottom-data .reminders .task-list .bx{
+    cursor: pointer;
+}
+
+.content main .bottom-data .reminders .task-list li .completed{
+   border-left:10px solid var(--success) ;
+}
+
+.content main .bottom-data .reminders .task-list li .not-completed{
+    border-left: 10px solid var(--danger);
+}
+
+.content main .bottom-data .reminders .task-list li:last-child{
+    margin-bottom: 0;
+}
+
 #negativo{
     color: var(--danger);
 }
 #positivo{
     color: var(--success);
+}
+
+@media screen and (max-width : 768px) {
+    .sidebar{
+        width: 200px;
+    }
+
+    .content{
+        width: calc(100% - 60px);
+        left: 200px;
+    }
+}
+
+@media screen and(max-width: 576px) {
+    .content nav form .form-input input{
+        display: none;
+    }
+    .content nav form .form-input bottom{
+        width: auto;
+        height: auto;
+        background: transparent;
+        color: var(--dark);
+        border-radius: none;
+    }
+
+    .content nav form.show .form-input input{
+        display: block;
+        width: 100%;
+    }
+    .content nav form.show .form-input bottom{
+        width: 36px;
+        height: 100%;
+        color: var(--light);
+        background: var(--danger);
+        border-radius: 0 36px 36px 0;
+    }
+
+    .content nav form.show~.notif, .content nav form.show~.profile{
+        display: none;
+    }
+
+    .content main .insights{
+        grid-template-columns: 1fr;
+    }
+
+    .content main .bottom-data.header{
+        min-width: 340px;
+    }
+    .content main .bottom-data .orders table{
+        min-width: 340px;
+    }
+    .content main .bottom-data.reminders .task-list{
+        min-width: 340px;
+    }
 }

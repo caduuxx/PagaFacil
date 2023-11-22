@@ -20,6 +20,8 @@ body{
     width: 100%;
     transition: all 0.3s ease;
     z-index: 99;
+    top: 0%;
+    /*ISSO AQUI EU MUDEI*/ 
 }
 .content nav{
     height: 56px;
@@ -51,9 +53,7 @@ body{
 /* BTN NAV */
 #btn{
     text-align: right;
-    width: 10%;
-    position: relative;
-    left: 440px;
+    width: 100%;
 }
 #btn button{
     font-family: 'Poppins', sans-serif;
@@ -85,17 +85,104 @@ body{
 #btn:active {
     animation: clicar 0.2s;
 }
+/* ANIMAÇAO */
+.box-degrader{
+    width: 100%;
+    padding: 70px 0;
+    display: flex;
+    background-image:linear-gradient(to left,#63C873,#229a00,#95b963,#99ff66,#6dd100,#008000,#779b0d );
+    background-size: 500% 100%;
+    animation: degrade-animado 30s infinite alternate;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+@keyframes degrade-animado{
+    0%{
+        background-position-x:0%;
+    }
+    100%{
+        background-position-x:100%;
+    }
+}
+/* INFOS */
+#informacao{ 
+    width: 400px;
+    background: transparent;
+    border: solid var(--Branco) 5px;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    position: relative;
+    left: 10%;
+    margin-top: 5%;
+    display: flexbox;
+}
+#informacao h1{
+    text-align: center;
+    color: var(--Branco); 
+}
+#informacao p{
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--Branco); 
+}
+/* Infos btn´s */
+#btnInformacao{
+    font-family: 'Poppins', sans-serif;
+    background: transparent;   
+    width: 150px;
+    height: 40px;
+    border: solid var(--Branco);
+    font-size: 0.9rem;
+    color:var(--Branco);
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+}
+#btnInformacao:hover {
+    background-color: transparent;
+}
+@keyframes clicar {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+#btnInformacao:active {
+    animation: clicar 0.2s;
+}
+#btnAlign{
+    padding-top: 5%;
+    padding-left: 10%;
+    margin-bottom: 5%;
+}
+#LogoApp{
+    height: 70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
 /* COPY`S */
 #copyEsquerda{
-    width: 400px;
+    width: 20%;
+    /*ISSO AQUI EU MUDEI*/ 
+    /* width: 400PX; */
     /* height: 200px; */
     background: var(--fundo);
     border: solid var(--fundo) 5px;
     border-radius: 30px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     position: relative;
-    left: 10%;
-    margin-top: 5%;
+    left: 15%;
+    margin-top: 10%;
+    /*ISSO AQUI EU MUDEI*/ 
     display: flexbox;
     padding: 4rem;
 }
@@ -108,15 +195,18 @@ body{
     color: var(--Branco); 
 }
 #copyDireito{
-    width: 400px;
+    width: 20%;
+    /*ISSO AQUI EU MUDEI*/ 
     /* height: 200px; */
     background: var(--fundo);
     border: solid var(--fundo) 5px;
     border-radius: 30px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     position: relative;
-    left: 55%;
-    margin-top: 5%;
+    left: 65%;
+    justify-content: right;
+    margin-top: 10%;
+    /*ISSO AQUI EU MUDEI*/ 
     display: flexbox;
     padding: 4rem;
 }
@@ -128,4 +218,6 @@ body{
     text-align: center;
     color: var(--Branco); 
 }
-
+.box{
+    padding-top: 56px;
+}

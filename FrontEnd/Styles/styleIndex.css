@@ -51,9 +51,10 @@ body{
 /* BTN NAV */
 #btn{
     text-align: right;
+    padding-left: 37px;
     width: 7%;
     position: relative;
-    left: 440px;
+    left: 400px;
 }
 #btn button{
     font-family: 'Poppins', sans-serif;
