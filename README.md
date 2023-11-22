@@ -1,9 +1,14 @@
-﻿# PagaFacil V0.2.4
+﻿# PagaFacil V0.2.5
  
-Atualizaçao
-- Clases Java seguindo o diagrama UML
-- Dashbord 80% concluido 
-- Bug "SobreNos" Corrigido  
+Atualizaçao <br>
+Front 
+- Dashbord 100% concluido 
+- Bug "SobreNos" ainda em conflito
+- Bug fazerlogin.js ainda em erro <br>
+
+Back
+- classes uml em java 
+- primeiro teste do metodo somarBoletos
 
 
 # Descrição
