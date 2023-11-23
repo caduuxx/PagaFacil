@@ -3,8 +3,8 @@ use bd_pagaFacil;
 
 create table tb_cliente (
     id int NOT NULL PRIMARY key,
-    cpf varchar(25) NOT NULL,
-    cnpj varchar(25) NOT NULL ,
+    cpf varchar(25),
+    cnpj varchar(25),
     nome_social varchar(25),
     email varchar(20) NOT NULL,
     senha varchar(30) NOT NULL,
