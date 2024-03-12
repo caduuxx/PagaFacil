@@ -11,7 +11,7 @@ Back
 
 
 
-Atualizaçao para a proxima versão 0.3.1 <br>
+# Atualizaçao para a proxima versão 0.3.1 <br>
 Front 
 - Terminar Dashbord <br>
 - Bug "SobreNos" ainda em conflito <br>
