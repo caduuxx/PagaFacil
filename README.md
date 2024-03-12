@@ -4,26 +4,26 @@ Front
 - Bug com o JavaScript na pagina "login.html" corrigido
  <br>
 Back
-- Adiçao do fremeork e sistema Spring
-- conexçao com o banco de dados e api 90%
+ - Adiçao do fremeork e sistema Spring <br>
+ - conexçao com o banco de dados e api 90% <br>
 <br>
 <br>
 # Atualizaçao para a proxima versão 0.3.1 <br>
 Front 
-- Terminar Dashbord
-- Bug "SobreNos" ainda em conflito
-- arrumar pequenas coisas da tela index como os baloes de texto
+- Terminar Dashbord <br>
+- Bug "SobreNos" ainda em conflito <br>
+- arrumar pequenas coisas da tela index como os baloes de texto <br>
  <br>
 
 Back
-- refazer as classes uml em java 
-- Criar metodo somarBoletos
-- integrar com o banco de dados
-- intengrar o font com o back
+- refazer as classes uml em java <br>
+- Criar metodo somarBoletos <br>
+- integrar com o banco de dados <br>
+- intengrar o font com o back <br>
 <br>
 Documentaçao
-- Refazer a documentaçao UML
-- Refazer a documentaçao geral 
+- Refazer a documentaçao UML <br>
+- Refazer a documentaçao geral  <br>
 
 # Descrição
 
