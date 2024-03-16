@@ -8,7 +8,7 @@ create table tb_cliente (
     nome_social varchar(25),
     email varchar(20) NOT NULL,
     senha varchar(30) NOT NULL,
-    telefone varchar(20) NOT NULL ,
+    telefone int,
     endereco varchar(20) NOT NULL
     );
 create table tb_boleto (
