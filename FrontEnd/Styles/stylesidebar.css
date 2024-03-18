@@ -38,7 +38,8 @@ html{
 body.dark{
     --light: #181a1e;
     --grey : #25252c;
-    --dark: fbfbfb;
+    --dark: #fbfbfb;
+    --fundo: #086318; 
 }
 body{
     background: var(--grey);
@@ -573,7 +574,4 @@ body{
 }
 .selecionado{
     background-color: #363949;
-}
-.bx-receipt{
-    color: #000;
 }
