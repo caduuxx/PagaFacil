@@ -6,9 +6,9 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="/FrontEnd/Styles/stylesidebar.css">
     <link rel="shortcut icon" href="/FrontEnd/img/Favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../assets/vendor/css/core.css" class="template-customizer-core-css" />
-    <link rel="stylesheet" href="../assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
-    <link rel="stylesheet" href="../assets/css/demo.css" />
+    <link rel="stylesheet" href="../../assets/vendor/css/core.css" class="template-customizer-core-css" />
+    <!-- <link rel="stylesheet" href="../../assets/vendor/css/theme-default.css" class="template-customizer-theme-css" /> -->
+    <!-- <link rel="stylesheet" href="../../assets/css/demo.css" /> -->
     <title>PagaFacil</title>
 </head>
 <body>
@@ -18,14 +18,13 @@
             <img src="/FrontEnd/img/LogoPagaFacil.Branco.png" alt="PagaFacil" height="120px">
         </a>
         <ul class="side-menu">
-            <li><a href="carteira.html"><i class='bx bx-wallet'></i>Carteira</a></li>
-            <li><a href="#"><i class='bx bx-store-alt' ></i>Cadastra venda</a></li>
-            <li><a href="FazerDepositos.html"><i class='bx bx-coin'></i>Fazer deposito</a></li>
-            <li><a href="#"><i class='bx bxs-bank' ></i>Adicionar pedido</a></li>
-            <!-- <li class="active"><a href="#"><i class='bx bxs-analyse' ></i>Fazer deposito</a></li> -->
-            <li><a href="#"><i class='bx bx-message-square-dots'></i>Suporte</a></li>
-            <li><a href="#"><i class='bx bx-group' ></i>Usuario</a></li>
-            <li><a href="#"><i class='bx bx-cog' ></i>Configuração</a></li>
+          <li><a href="/FrontEnd/html/App/carteira.html"><i class='bx bx-wallet'></i>Carteira</a></li>
+          <li><a href="/FrontEnd/html/App/CadastrarBoleto.html"><i class='bx bx-barcode'></i>Boleto</a></li>
+          <li><a href="/FrontEnd/html/App/FazerDepositos.html"><i class='bx bx-coin'></i>Fazer deposito</a></li>
+          <li><a href="/FrontEnd/html/App/adicionarPedido.html"><i class='bx bxs-bank' ></i>Adicionar pedido</a></li>
+          <li><a href="/FrontEnd/html/App/suporte.html"><i class='bx bx-message-square-dots'></i>Suporte</a></li>
+          <li><a href="/FrontEnd/html/App/User.html"><i class='bx bx-group' ></i>Usuario</a></li>
+          <li><a href="/FrontEnd/html/App/Configuracao.html"><i class='bx bx-cog' ></i>Configuração</a></li>
         </ul>
         <ul class="side-menu">
             <li>
@@ -36,7 +35,7 @@
             </li>
         </ul>
     </div>
-    <!-- FIM DA BARRA LATERAL-->
+        <!-- FIM DA BARRA LATERAL-->
 
     <!-- Main Content-->
 <div class="content">
@@ -51,7 +50,7 @@
                 </button>
             </div>
         </form>
-        <input type="checkbox" id=theme-toggle" hidden>
+        <input type="checkbox" id="theme-toggle" hidden>
         <label for="theme-toggle" class="theme-toggle">
         </label>
         <a href="#" class="notif">
@@ -77,10 +76,6 @@
                         Carteira
                     </a></li>
                 </ul>
-            </div>
-            <div class="report">
-                <i class='bx bx-cloud-download'></i>
-                <span>Baixar</span>
             </div>
         </div>
 
@@ -155,33 +150,33 @@
             <!-- <div class="reminders">
                 <div class="header">
                     <i class='bx bx-note' ></i>
-                    <h3>Remiders</h3>
+                    <h3>Tarefas</h3>
                     <i class='bx bx-filter' ></i>
                     <i class='bx bx-plus' ></i>
                 </div>
-                <ul class="tack-list">
+                <ul class="task-list">
                     <li class="completed">
                         <div class="task-title">
                             <i class='bx bx-checkbox-checked' ></i>
-                            <p>Start Our Meeting</p>
+                            <p>Fazer deposito</p>
                         </div>
                         <i class='bx bx-dots-vertical-rounded' ></i>
                     </li>
                     <li class="completed">
                         <div class="task-title">
                             <i class='bx bx-x-circle' ></i>
-                            <p>Start Our Meeting</p>
+                            <p>Pagar boleto</p>
                         </div>
                         <i class='bx bx-dots-vertical-rounded' ></i>
                     </li>
                     <li class="completed">
                         <div class="task-title">
                             <i class='bx bx-checkbox-checked' ></i>
-                            <p>Start Our Meeting</p>
+                            <p>Planejamento financeiro</p>
                         </div>
                         <i class='bx bx-dots-vertical-rounded' ></i>
                     </li> -->
-                    <div class="col-md-6 col-lg-4 order-2 mb-4">
+                    <!-- <div class="col-md-6 col-lg-4 order-2 mb-4"> -->
                         <div class="card h-100">
                           <div class="card-header d-flex align-items-center justify-content-between">
                             <h5 class="card-title m-0 me-2">Transactions</h5>
@@ -207,7 +202,7 @@
                             <ul class="p-0 m-0">
                               <li class="d-flex mb-4 pb-1">
                                 <div class="avatar flex-shrink-0 me-3">
-                                  <img src="../assets/img/icons/unicons/paypal.png" alt="User" class="rounded" />
+                                  <img src="../../assets/img/icons/unicons/paypal.png" alt="User" class="rounded" />
                                 </div>
                                 <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                                   <div class="me-2">
@@ -222,7 +217,7 @@
                               </li>
                               <li class="d-flex mb-4 pb-1">
                                 <div class="avatar flex-shrink-0 me-3">
-                                  <img src="../assets/img/icons/unicons/wallet.png" alt="User" class="rounded" />
+                                  <img src="../../assets/img/icons/unicons/wallet.png" alt="User" class="rounded" />
                                 </div>
                                 <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                                   <div class="me-2">
@@ -237,7 +232,7 @@
                               </li>
                               <li class="d-flex mb-4 pb-1">
                                 <div class="avatar flex-shrink-0 me-3">
-                                  <img src="../assets/img/icons/unicons/chart.png" alt="User" class="rounded" />
+                                  <img src="../../assets/img/icons/unicons/chart.png" alt="User" class="rounded" />
                                 </div>
                                 <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                                   <div class="me-2">
@@ -252,7 +247,7 @@
                               </li>
                               <li class="d-flex mb-4 pb-1">
                                 <div class="avatar flex-shrink-0 me-3">
-                                  <img src="../assets/img/icons/unicons/cc-success.png" alt="User" class="rounded" />
+                                  <img src="../../assets/img/icons/unicons/cc-success.png" alt="User" class="rounded" />
                                 </div>
                                 <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                                   <div class="me-2">
@@ -267,7 +262,7 @@
                               </li>
                               <li class="d-flex mb-4 pb-1">
                                 <div class="avatar flex-shrink-0 me-3">
-                                  <img src="../assets/img/icons/unicons/wallet.png" alt="User" class="rounded" />
+                                  <img src="../../assets/img/icons/unicons/wallet.png" alt="User" class="rounded" />
                                 </div>
                                 <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                                   <div class="me-2">
@@ -282,7 +277,7 @@
                               </li>
                               <li class="d-flex">
                                 <div class="avatar flex-shrink-0 me-3">
-                                  <img src="../assets/img/icons/unicons/cc-warning.png" alt="User" class="rounded" />
+                                  <img src="../../assets/img/icons/unicons/cc-warning.png" alt="User" class="rounded" />
                                 </div>
                                 <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                                   <div class="me-2">
@@ -298,7 +293,7 @@
                             </ul>
                           </div>
                         </div>
-                      </div>
+                      <!-- </div> -->
                     <!-- FINAL Reminders -->
                 </ul>
             </div>
@@ -309,6 +304,7 @@
 
 
 
-    <script src="/Scripts/index.js"></script>
+    <script src="/FrontEnd/Scripts/index.js"></script>
+    <script src="../../Scripts/fazerlogin.js"></script>
 </body>
 </html>
